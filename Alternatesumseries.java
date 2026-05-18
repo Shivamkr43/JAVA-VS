@@ -1,17 +1,37 @@
-package Loops;
+<!doctype html>
+<html>
+<head>
+<title>login Demo</title>
+</head>
+<body>
+<h2>login page</h2>
+<form onsubmit="return validate()">
+<input type="text"id="username"
+placeholder="username"required><br><br>
+<inputtype="password"id="passward"
+placeholder="password"required><br><br>
+<buttoon type ="submit"<login</button>
+</form>
+<p id="result"</p>
 
-public class Alternatesumseries {
-    public static void main(String[] args) {
-        int n =20,sum=0;
-        for(int i=1;i<=n;i++){
-            if(i%2==0){
-                sum-=i;
-            }
-            else{
-                sum+=i;
-            }
-        }
-        System.out.println(sum);
-    }
+<script>
+function validate(){
+    let user=
+    document.grtElementByld("username").value;
+    let pass=
+    document.getElementByld("password").value;
     
-}
+    if(user==="admin"&&pass==="1234")}
+    document.getelementBYLD("result").innerText=
+    "Login Successful";
+}else{ 
+     doocument.getElementByld("result").innertext=
+     "invaild Credentials";
+   }
+
+   return false;
+   }
+   </script>
+   </body>
+   </html>
+   <!doctype html>
