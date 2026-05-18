@@ -1,4 +1,4 @@
-import java.io.*;
+//import java.io.*;
 
 class factorial {
     public static void main(String args[])

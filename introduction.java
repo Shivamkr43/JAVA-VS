@@ -47,16 +47,17 @@ public class introduction {
 
         // ARRAYS
         int age = 19;
-        int physics = 77;
-        int chemistry = 88;
-        int maths = 98;
+        int phy = 77;
+        int chem = 88;
+        int math = 98;
 
         int[] marks = new int [3];
         marks[0] = 77;
         marks[1] = 88;
         marks[2] = 98;
         System.out.println(marks);
-
+        System.out.println("Age: " + age);
+        System.out.println("Total Number : " +  phy + chem + math);
 
     }
     
